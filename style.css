@@ -72,8 +72,7 @@ body::before {
     background-color: #000
 }
 
-.content {
-    h1 {
+.content h1 {
         font-family: "Poppins", sans-serif;
         font-weight: 900;
         color: #fff;
@@ -81,13 +80,10 @@ body::before {
         font-size: 34px;
         letter-spacing: 1px;
         padding-top: 12px;
-    }
 }
 
-.content {
-    .year {
+.content .year {
         color: #FE3131;
-    }
 }
 
 .hero-images {
@@ -137,40 +133,28 @@ body::before {
     background-color: #ffffff;
 }
 
-.hero-images {
-    .img-center {
+.hero-images .img-center{
         height: 300px;
         overflow: hidden;
-    }
 }
 
-.hero-images {
-    .img-center {
-        .img-bk-circle {
+.hero-images  .img-center .img-bk-circle  {
             background-color: #14C154;
             width: 200px;
             height: 200px;
             border-radius: 50%;
-        }
-    }
 }
 
-.img-center {
-    .img-container {
+.img-center .img-container {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
 }
 
-.hero-images {
-    .img-center {
-        img {
+.hero-images .img-center img {
             width: 100%;
             height: auto;
         }
-    }
-}
 
 
 .hybrid-batch {
@@ -178,13 +162,11 @@ body::before {
     justify-content: center;
 }
 
-.hybrid-batch {
-    h2 {
+.hybrid-batch h2{
         color: #fff;
         font-size: 32px;
         text-transform: uppercase;
         letter-spacing: 1px;
-    }
 }
 
 .announcement {
@@ -197,8 +179,7 @@ body::before {
     border-top: 1px solid #bcbaba;
 }
 
-.announcement {
-    .info-text {
+.announcement info-text{
         padding: 12px 0;
         text-transform: uppercase;
         font-size: 14px;
@@ -209,39 +190,31 @@ body::before {
         line-height: 1.2;
         width: 50%;
         border-right: 1px solid #bcbaba;
-
-        p {
-            padding-right: 8px;
-        }
-    }
 }
+.announcement .info-text p{padding-right: 8px}
 
 .announcement .date {
     padding-left: 8px;
     text-transform: uppercase;
     text-align: justify;
-
-    p {
-        font-size: 14px;
-        color: #d5d5d5;
-    }
-
-    p.start-date {
+}
+.announcement .date p{
+    font-size: 14px;
+        color: #d5d5d5
+}
+p.start-date {
         font-size: 16px;
         font-weight: bold;
         color: #fff;
-    }
 }
 
-.registration-details {
-    h2 {
+.registration-details h2{
         color: #00dc54;
         text-transform: uppercase;
         font-weight: 800;
         font-size: 28px;
         letter-spacing: 2px;
         margin-top: 10px;
-    }
 }
 
 .batch-strength {
@@ -249,28 +222,24 @@ body::before {
     padding-top: 12px;
 }
 
-.batch-strength {
-    p {
+.batch-strength p {
         color: #fff;
         font-size: 16px;
         text-transform: uppercase;
         font-weight: bold;
-    }
 }
 
 .special-offer {
     padding: 20px 0 40px 0;
 }
 
-.special-offer {
-    h3 {
+.special-offer h3 {
         word-spacing: 8px;
         color: #c8ff00;
         font-weight: 900;
         font-size: 26px;
         text-transform: uppercase;
         line-height: 1.2;
-    }
 }
 
 .gradient-secondary {
