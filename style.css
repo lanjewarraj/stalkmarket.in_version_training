@@ -152,6 +152,7 @@ body::before {
             height: 200px;
             border-radius: 50%;
     margin-top: 56px;
+    overflow: hidden;
 }
 
 .img-center .img-container {
