@@ -135,8 +135,8 @@ body::before {
 
 .hero-images .img-left .circle,
 .hero-images .img-right .circle {
-    width: 80px;
-    height: 80px;
+    width: 74px;
+    height: 74px;
     border-radius: 50%;
     background-color: #ffffff;
 }
@@ -151,6 +151,7 @@ body::before {
             width: 200px;
             height: 200px;
             border-radius: 50%;
+    margin-top: 56px;
 }
 
 .img-center .img-container {
