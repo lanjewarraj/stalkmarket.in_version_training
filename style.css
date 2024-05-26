@@ -106,18 +106,26 @@ body::before {
     color: #000000;
 }
 
-.hero-images .img-left .feature,
+.hero-images .img-left .feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-images .img-left .feature img {
+        width: 30px;
+        height: 30px;
+    }
 .hero-images .img-right .feature {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    img {
+ }
+.hero-images .img-right .feature img {
         width: 30px;
         height: 30px;
     }
-}
 
 .hero-images .img-right p {
     font-size: 8px;
