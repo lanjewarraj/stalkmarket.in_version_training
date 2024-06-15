@@ -81,7 +81,9 @@ body::before {
     letter-spacing: 1px;
     padding-top: 12px;
 }
-
+.content .title h2 {
+    color: transparent;
+}
 .content .year {
     color: #FE3131;
 }
