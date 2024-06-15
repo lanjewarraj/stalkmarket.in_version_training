@@ -1,0 +1,57 @@
+/* 3.Small Devices Portraid Tablets and Small Desktops */
+@media (min-width: 768px) AND (max-width: 991px) {
+    .wwyl-component {
+        margin: 0 14px;
+    }
+
+    .wwyl-component .component-section-one,
+    .wwyl-component .component-section-two,
+    .wwyl-component .component-section-three {
+        flex-direction: column;
+    }
+
+    .wwyl-component .component-section-one .section-content,
+    .wwyl-component .component-section-two .section-content,
+    .wwyl-component .component-section-three .section-content {
+        width: 100%;
+    }
+}
+
+/* 4. Extra Small Devices (Landsape Phone & Portraid Tablet) */
+@media (max-width: 767px) {
+    .wwyl-component {
+        margin: 0 14px;
+    }
+
+    .wwyl-component .component-section-one,
+    .wwyl-component .component-section-two,
+    .wwyl-component .component-section-three {
+        flex-direction: column;
+    }
+
+    .wwyl-component .component-section-one .section-content,
+    .wwyl-component .component-section-two .section-content,
+    .wwyl-component .component-section-three .section-content {
+        width: 100%;
+    }
+}
+
+/* 5. Extra Small Devices (Portrait Phone & Smaller Devices) */
+@media (max-width: 480px) {
+    .wwyl-component {
+        margin: 0 14px;
+    }
+
+    .wwyl-component .component-section-one,
+    .wwyl-component .component-section-two,
+    .wwyl-component .component-section-three {
+        flex-direction: column;
+    }
+
+    .wwyl-component .component-section-one .section-content,
+    .wwyl-component .component-section-two .section-content,
+    .wwyl-component .component-section-three .section-content {
+        padding: 20px 10px;
+        width: 100%;
+    }
+}
