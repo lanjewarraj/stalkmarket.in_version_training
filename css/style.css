@@ -81,9 +81,11 @@ body::before {
     letter-spacing: 1px;
     padding-top: 12px;
 }
+
 .content .title h2 {
     color: transparent;
 }
+
 .content .year {
     color: #FE3131;
 }
@@ -440,4 +442,16 @@ section .wwyl-heading h2 {
 
 .content-icon {
     margin-right: 10px;
+}
+
+.footer {
+    background-color: #0A220E;
+    padding: 10px 0;
+}
+
+.footer-links a {
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: underline;
 }
