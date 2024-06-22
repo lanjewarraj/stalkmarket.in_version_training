@@ -1,4 +1,31 @@
-/* 3.Small Devices Portraid Tablets and Small Desktops */
+/* 1. Large Device ( Desktop & laptops ) */
+@media(min-width: 1200px) and (max-width: 1299) {
+    section .faq-content.active {
+        padding-top: 30px;
+        padding-bottom: 32px;
+    }
+}
+
+/* 2. Medium Device ( Landscape Tablets & Medium Desktops ) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    section .faq-content.active {
+        padding-top: 30px;
+        padding-bottom: 32px;
+    }
+    .mobile-layout .hero-images .img-center{
+        display: none;
+    }
+    .container .layout{
+        display: flex;
+        justify-items: center;
+        align-items: flex-start;
+    }
+    .desktop-layout img{ 
+        width: 380px;
+    }
+}
+
+/* 3. Small Devices Portraid Tablets and Small Desktops */
 @media (min-width: 768px) AND (max-width: 991px) {
     .wwyl-component {
         margin: 0 14px;
